@@ -9,4 +9,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ExcelColumn {
     String name() default "";
+
+    String sheet() default "Plan";
 }
