@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ExcelColumn {
     String name() default "";
-
+  
     boolean caseSensitive() default true;
 
     int porcentagemSimilaridade() default 100;
